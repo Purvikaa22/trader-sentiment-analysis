@@ -1,8 +1,19 @@
 # trader-sentiment-analysis
 # Trader Performance vs Market Sentiment Analysis
+This project analyzes how market sentiment impacts trader behavior and performance using real trading data.
 
 ## Objective
 Analyze how market sentiment (Fear/Greed) impacts trader behavior and performance.
+
+## Requirements
+- pandas
+- seaborn
+- matplotlib
+  
+## Data
+The following datasets were used:
+- fear_greed.csv (Bitcoin market sentiment data)
+- trader_data.csv (Hyperliquid trading data)
 
 ## Methodology
 - Cleaned and aligned sentiment and trading datasets using timestamps
@@ -20,4 +31,5 @@ Analyze how market sentiment (Fear/Greed) impacts trader behavior and performanc
 
 ## How to Run
 1. Open `final_analysis.ipynb`
-2. Run all cells
+2. Install required libraries: pandas, seaborn, matplotlib
+3. Run all cells
